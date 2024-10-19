@@ -41,8 +41,8 @@ const char config_html[] PROGMEM = R"=====(
                -WIFIMODE=AP<br>
                SHOWFILE_INSTEAD_OF_DOWNLOAD=TRUE<br>
                -SHOWFILE_INSTEAD_OF_DOWNLOAD=FALSE<br>
-               WIFI_SSID_STA=hpa-microcell<br>
-               WIFI_PASS_STA_ENCODED=fDk4NzQ1NjMyYWF8<br>
+               WIFI_SSID_STA=home<br>
+               WIFI_PASS_STA_ENCODED=fG5pbWRhfA==<br>
                SAVE_INDEX=2<br>
          </small>
       </td>

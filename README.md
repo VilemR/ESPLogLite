@@ -13,7 +13,7 @@ part of a wider WiFi infrastructure), Station (connects as another device in you
  - **Energy Saving Mode**: Can be remotely suspended to save energy, though manual reset is required to reactivate.
 
 ## Gallery
-The screenshots below show the logger interface and its key features:
+The screenshots below show the logger interface and its key features:<br>
 - **LOG Files**: Displays files containing the most recent log records from the Meshtastic node via the serial port. Each file holds approximately 2000 lines of logs (configurable). When storage reaches 90% capacity, the oldest file is automatically deleted to free space on the SPIFFS filesystem. Users can also manually delete unnecessary files by clicking the "D" hyperlink next to the file name. ![Displays files containing the most recent log records](img/01_logfiles.png)
 
 - **CONFIG Page** : Allows easy configuration of the logger by modifying the internal configuration file. Users can adjust settings such as serial speed, WiFi mode, and hostname. ![Displays device config](img/04_device_config.png)

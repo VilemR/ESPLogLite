@@ -1,6 +1,6 @@
 # ESPLogLite – A lightweight log recorder designed to streamline logging for Meshtastic nodes.
 This project is intended as an alternative to the OpenLog device, especially useful when deploying Meshtastic devices in hard-to-reach locations. While OpenLog offers significantly larger storage capacity and is widely used in various applications, the ESP01 logger provides the benefit of near real-time log monitoring via WiFi. This allows you to access recent logs without physical access to the device. Note that the ESP01 logger has a smaller storage capacity (up to approximately 48 hours of logs) due to the limitations of internal flash memory, and it consumes an additional 10mA, which could be a constraint if you're using solar panels for power. Therefore, it is recommended for scenarios where instant data access is prioritized over longer-term storage.
-![ESP01 board](img/esp01pinout){width=100 height=100}
+![ESP01 board](img/esp01pinout.jpg =100x100)
 
 ## Key Features:
  - **Instant WiFi Connection**: Supports three modes—Access Point (when not
@@ -14,7 +14,7 @@ part of a wider WiFi infrastructure), Station (connects as another device in you
 ## Gallery
 The screenshots below show the logger interface and its key features:
 Log Files: Displays files containing the most recent log records from the Meshtastic node via the serial port. Each file holds approximately 2000 lines of logs (configurable). When storage reaches 90% capacity, the oldest file is automatically deleted to free space on the SPIFFS filesystem. Users can also manually delete unnecessary files by clicking the "D" hyperlink next to the file name.
-![Displays files containing the most recent log records](img/01_logfiles.png){width=240 height=506}
+![Displays files containing the most recent log records](img/01_logfiles.png =240x506)
 ![Displays file log records](img/02_logfile.png){width=240 height=506}
 CONFIG Page: Allows easy configuration of the logger by modifying the internal configuration file. Users can adjust settings such as serial speed, WiFi mode, and hostname.
 ![Displays device config](img/04_device_config.png){width=240 height=506}

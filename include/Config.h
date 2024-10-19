@@ -32,7 +32,7 @@ inline unsigned char *WIFI_SSID_STA = (unsigned char *)"home";
 inline unsigned char *WIFI_PASS_STA_ENCODED = (unsigned char *)"="; 
 
 inline unsigned char *WIFI_SSID_AP = (unsigned char *)"ESPLOGLITE";
-inline unsigned char *WIFI_PASS_AP_ENCODED = (unsigned char *)"fDk4NzQ1NjMyMXw="; // |987456321|
+inline unsigned char *WIFI_PASS_AP_ENCODED = (unsigned char *)"fG5pbWRhfA=="; // default AP password: nimda
 
 inline WIFI_MODE DEFAULT_WIFI_MODE = AP;
 
